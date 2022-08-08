@@ -89,3 +89,20 @@ h2{
   :root {
     --animate-delay: 5s;
   }
+
+  @media screen and (max-width:768px){
+      main .logo{
+          max-width: 250px;
+      }
+      main .iso .texto{
+          max-width: 84px;
+      }
+      main .iso .sanguchito{
+          max-width: 28px;
+      }
+      .logo .iso {
+        position: absolute;
+        right: -58px;
+        top: 30px;
+    }
+  }
