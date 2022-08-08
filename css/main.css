@@ -91,16 +91,20 @@ h2{
   }
 
   @media screen and (max-width:768px){
-      main .logo{
-          max-width: 250px;
-      }
-      main .iso .texto{
-          max-width: 84px;
-      }
-      main .iso .sanguchito{
-          max-width: 28px;
-      }
-      .logo .iso {
+    h2{
+        margin-left: -25px;
+    }
+    main .logo{
+        max-width: 250px;
+        margin-left: -25px;
+    }
+    main .iso .texto{
+        max-width: 84px;
+    }
+    main .iso .sanguchito{
+        max-width: 28px;
+    }
+    .logo .iso {
         position: absolute;
         right: -58px;
         top: 30px;
